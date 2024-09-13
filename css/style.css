@@ -1,0 +1,80 @@
+/* Resetando os estilos padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Slab', serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Seções de parallax */
+.parallax {
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Primeira imagem de fundo */
+.parallax1 {
+  background-image: url('../imagens/bugatti1.jpg');
+}
+
+/* Segunda imagem de fundo */
+.parallax2 {
+  background-image: url('../imagens/bugatti2.jpg');
+}
+
+/* Terceira imagem de fundo */
+.parallax3 {
+  background-image: url('../imagens/bugatti3.jpg');
+}
+
+/* Sobreposição de texto */
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 1.2em;
+  padding: 0 20px;
+}
+
+/* Seções de conteúdo */
+.content {
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+}
+
+/* Estilizando o rodapé */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer .logo {
+  width: 100px;
+  margin-bottom: 10px;
+}
